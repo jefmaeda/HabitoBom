@@ -25,9 +25,9 @@
   text-align: center;
 }
 
-iframe{
-  max-width: 70rem;
-  max-height: 30rem;
+#video-intuitive iframe{
+  width: 50rem;
+  height: 25rem;
 }
 
 @media  (max-width: 600px){
@@ -36,7 +36,8 @@ iframe{
     font-size: 20px;
     width: 11rem;
   }
-  iframe{
-    min-height: 20rem;
+  #video-intuitive iframe{
+    width: 15rem;
+    height: 20rem;
   }
 }
