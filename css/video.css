@@ -1,0 +1,42 @@
+#hero{
+  position: relative;
+  margin-bottom: 82px;
+}
+#hero .video video{
+  width: 100%;
+}
+.overlay{
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+}
+
+.overlay h2{
+  padding: 0 4%;
+  margin-top: 100px;
+  max-width: 490px;
+  font-size: 50px;
+}
+
+/*youtube video*/
+#video-intuitive{
+  text-align: center;
+}
+
+iframe{
+  max-width: 70rem;
+  max-height: 30rem;
+}
+
+@media  (max-width: 600px){
+  .overlay h2{
+    margin-top: 20px;
+    font-size: 20px;
+    width: 11rem;
+  }
+  iframe{
+    min-height: 20rem;
+  }
+}
