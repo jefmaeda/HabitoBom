@@ -1,11 +1,335 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,700;1,800;1,900&display=swap"
+      rel="stylesheet" />
+
+    <!--Bootstrap-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+
+    <!--Bar Color-->
+    <meta name="theme-color" content="#352c22" />
+    <title>Habito Bom</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/video.css" />
+
+  </head>
+  <header>
+    <div id="interno" class="interface flex">
+      <div id="logo">
+        <a href="#">
+          <p>Habito.Bom</p>
+        </a>
+      </div>
+      <div id="menu-descktop">
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#conquest">Conquistas</a></li>
+            <li><a href="#dream">Sonho</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div id="open-menu">
+        <i class="bi bi-list"></i>
+      </div>
+
+      <div id="menu-mobile">
+        <div class="btn-close">
+          <i class="bi bi-x-lg"></i>
+        </div>
+
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#conquest">Conquistas</a></li>
+            <li><a href="#dream">Sonho</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div id="overlay-menu"></div>
+    </div>
+  </header>
+  <body>
+    <main>
+      <!--
+      <Section id="hero" class="interface">
+        <div class="overlay">
+          <h2>Quem todos os dias <span>desperta</span> o melhor que existe dentro de <span>você ?</span></h2>
+        </div>
+        <div class="video">
+          <video autoplay loop src="./assets/"></video>
+        </div>
+      </Section>
+      -->
+      <section id="my-profile" class="interface flex">
+        <div id="txt-profile">
+          <h1>Alessandro<span>.</span></h1>
+          <p class="p-format">
+            Nascido no Brasil, em uma cidadezinha chamada Assaí, no estado do
+            Paraná, Alessandro deixou tudo para trás em busca de um futuro
+            melhor para sua família. Viajou para o outro lado do mundo,
+            especificamente para o Japão. Chegando lá, ficou impressionado com a
+            cultura e a forma de viver dos japoneses. Como eles conseguiam
+            chegar a uma idade avançada mantendo uma qualidade de vida
+            maravilhosa?
+          </p>
+          <p class="p-format">
+            Foi então que Alessandro começou a buscar conhecimento e a aplicá-lo
+            no dia a dia. Após uma incrível transformação física, mental e
+            espiritual, descobriu que existe um grande segredo para uma vida
+            saudável e significativa, algo que nunca havia aprendido nas escolas
+            ou em qualquer outro lugar por onde passou. “Hoje, meu foco é ajudar
+            as pessoas, orientando-as e conscientizando-as sobre a importância
+            de adotar bons hábitos em suas vidas.”
+          </p>
+          <p class="p-format">
+            Alessandro Lima promete e se compromete com a missão de ajudar
+            aqueles que desejam saber mais. Ele se dedica a compartilhar suas
+            descobertas e a inspirar outros a alcançarem uma vida plena e
+            saudável, assim como ele conseguiu. Através de sua jornada e
+            experiência, Alessandro é uma prova viva de que é possível
+            transformar a vida e alcançar o bem-estar em todas as suas
+            dimensões.
+          </p>
+
+          <div id="social-links">
+            <a href="https://www.instagram.com/habito.bom" target="_blank">
+              <i class="bi bi-instagram"></i>
+            </a>
+            <a href="#">
+              <i class="bi bi-youtube"></i>
+            </a>
+          </div>
+        </div>
+
+        <div id="img-profile">
+          <div id="avatar" class="box">
+            <img src="./assets/profile-img.jpg" alt="imagem do Alessandro" />
+          </div>
+        </div>
+      </section>
+
+      <div class="line"></div>
+
+      <Section id="video-intuitive" class="interface">
+        <iframe src="https://www.youtube.com/embed/L1sw_3Y7XnM?si=BbZOFoTVQTlgKxHY&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        <h1>Coloque o seu <span>melhor fone</span></h1>
+      </Section>
+
+      <div class="line"></div>
+
+      <section id="about" class="interface flex">
+        <div id="img-about" class="flex">
+          <div id="main-img" class="box">
+            <img src="./assets/about.jpg" alt="intagram do habito.bom" />
+          </div>
+        </div>
+
+        <div id="txt-about">
+          <h1>Bem Vindo a o <span>Habito.Bom</span></h1>
+          <h3>Quem te lembra todos os dias de <span> você é capaz?</span></h3>
+          <p class="p-format">
+            <strong>“Hábito Bom”<span>!</span></strong> <br />
+            Aqui, nos dedicamos a inspirar você diariamente na busca pelo
+            desenvolvimento pessoal. Sabemos que a jornada de crescimento pode
+            ser desafiadora, e é por isso que criamos uma comunidade onde você
+            encontra motivação, dicas práticas e apoio constante para construir
+            <span>hábitos positivos que transformam sua vida.</span>
+          </p>
+          <p class="p-format">
+            Nossos conteúdos são cuidadosamente elaborados para ajudá-lo a
+            acreditar no seu potencial, superar obstáculos e alcançar seus
+            objetivos. Seja através de mensagens inspiradoras, histórias de
+            sucesso, ou estratégias comprovadas para o desenvolvimento pessoal,
+            estamos aqui para lembrá-lo de que
+            <span>você é capaz de conquistar qualquer coisa.</span>
+          </p>
+          <p class="p-format">
+            Siga-nos e junte-se à nossa comunidade! <br />
+            Vamos, juntos, <span>cultivar hábitos bons</span> e fazer do
+            desenvolvimento pessoal <span>um compromisso diário.</span>
+          </p>
+        </div>
+      </section>
+
+      <div class="line"></div>
+
+      <section id="conquest" class="interface">
+        <h1>Conquista Do nosso <span>Movimento</span></h1>
+
+        <div class="user-warpper">
+          <div class="users-conquest-area">
+            <div class="flex user-victory">
+              <!--vou modificar para slider-->
+              <div class="slide">
+                <img src="./assets/antes-depois-gk.JPG" alt="imagem de text" />
+              </div>
+              <div class="slide">
+                <img src="./assets/depoimento-gk.JPG" alt="imagem de text" />
+              </div>
+            </div>
+
+            <p class="p-format">
+              Esse rapaz chegou a marca de 127 kg, mas depois de muito esforço,
+              dedicação, constância, foco e disciplina começou uma jornada
+              incrível com a gente e já diminuiu incríveis 15 kg ! Já notamos
+              uma grande mudança na sua transformação física que também vem
+              trazendo diversos benefícios na sua saúde mental e espiritual.
+              Meus parabéns @guuh_katayama por sua transformação inspiradora!
+            </p>
+          </div>
+
+          <div class="users-conquest-area">
+            <div class="flex user-victory">
+              <!--vou modificar para slider-->
+              <div class="slide">
+                <img src="./assets/k.JPG" alt="imagem de text" />
+              </div>
+              <div class="slide">
+                <img src="./assets/k-d.JPG" alt="imagem de text" />
+              </div>
+            </div>
+
+            <p class="p-format">
+              Em apenas 3️⃣SEMANAS esse rapaz conseguiu ELIMINAR 7kg!!
+
+              <br />
+              em pequenos passos e grandes conquistas você mostrou uma
+              determinação impressionante, superando diversos obstáculos e
+              conseguindo alcançar as metas. Juntos construímos hábitos
+              saudáveis, encontramos equilíbrio e celebramos cada pequena
+              vitória ao longo do caminho.
+
+              <br />
+              PARABÉNS POR ESSA INCRÍVEL TRANSFORMAÇÃO 🎉
+
+              <br />
+              Eu tenho certeza que você vai inspirar muitas pessoas a também
+              perseguirem seus objetivos! E isso é só o começo de muitas coisas
+              boas que estão por vir…
+            </p>
+          </div>
+
+          <div class="users-conquest-area">
+            <div class="flex user-victory">
+              <!--vou modificar para slider-->
+              <div class="slide">
+                <img src="./assets/j.JPG" alt="imagem de text" />
+              </div>
+              <div class="slide">
+                <img src="./assets/j-d.JPG" alt="imagem de text" />
+              </div>
+            </div>
+
+            <p class="p-format">
+              Menos 9 kg na balança e uma bela redução de gordura corporal.
+              <br />
+              @joseph_the_runner meus parabéns pela dedicação até aqui. Você e
+              umas da pessoas mais disciplinadas que eu já conheci e tenho
+              certeza que vai chegar longe em vários aspectos da vida!
+              <br />
+              <br />
+              Isso é só o começo irmão 💪🏻
+            </p>
+          </div>
+        </div>
+
+        <div id="my-victory">
+          <h1>Qual foi a Minha <span>Conquista</span></h1>
+        </div>
+        <div class="users-conquest-area">
+          <div class="flex user-victory">
+            <!--vou modificar para slider-->
+            <div class="slide">
+              <img src="./assets/antes-a.jpg" alt="imagem de text" />
+            </div>
+            <div class="slide">
+              <img src="./assets/profile-img.jpg" alt="imagem de text" />
+            </div>
+          </div>
+
+          <p class="p-format">
+            Antes de descobrir a evolução pessoal, minha vida era uma rotina
+            cansativa, cheia de limitações e medos. Eu me sentia preso, como se
+            estivesse apenas existindo, sem realmente viver. Mesmo passando por
+            várias dificuldades, sempre havia uma voz dentro de mim dizendo que
+            algo melhor estava por vir. 
+            <br>
+            Então, um dia, algo mudou. De repente,
+            despertei para essa coisa incrível chamada evolução pessoal. Foi
+            como um clarão, revelando um potencial que eu nem sabia que tinha.
+            Comecei a ver os desafios como oportunidades para crescer e
+            valorizei cada pequena conquista. Aprendi a me conhecer melhor, a
+            ser mais resiliente e a nunca desistir. 
+            <br>
+            Hoje, sou uma pessoa
+            completamente diferente. Aquela voz interna agora fala alto, me
+            empurrando sempre para frente. A evolução pessoal virou parte da
+            minha vida, um compromisso diário de ser a melhor versão de mim
+            mesmo. Cada dia é uma nova chance de crescer e evoluir, e sou muito
+            grato por ter descoberto isso.
+          </p>
+        </div>
+      </section>
+
+      <div class="line"></div>
+
+      <section id="dream" class="interface flex">
+        <div id="txt-dream">
+          <h1>O meu <span>Sonho</span></h1>
+          <p class="p-format">
+            Quando comecei a melhorar como pessoa, percebi que o ambiente seria
+            essencial para essa evolução. Precisava estar rodeado de pessoas que
+            compartilhassem o mesmo objetivo que o meu: o desejo genuíno de
+            crescimento e aprimoramento em todas as esferas da vida. Descobri
+            que estar em um ambiente positivo e inspirador potencializa a
+            capacidade de superar desafios, aprender novas habilidades e
+            alcançar uma vida mais equilibrada e plena.
+            <br />
+            <br />
+            Aqui no Hábito.bom quero proporcionar ferramentas e recursos que
+            auxiliem no desenvolvimento mental, promovendo a saúde emocional e a
+            clareza de pensamentos. Desejo incentivar a prática de atividades
+            físicas que melhorem a saúde e o bem-estar, fortalecendo o corpo e a
+            mente. Além disso, quero inspirar o crescimento espiritual, ajudando
+            as pessoas a encontrar um propósito maior e a viverem com mais
+            significado e paz interior.
+            <br />
+            <br />
+            Você não está sozinho na jornada do auto conhecimento! Venha fazer
+            parte da nossa comunidade, aqui é o começo de algo maravilhoso que
+            está para acontecer em sua vida.
+          </p>
+        </div>
+
+        <div id="img-dream" class="flex">
+          <div id="dream-img" class="box">
+            <img src="./assets/juntos.jpg" alt="intagram do habito.bom" />
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+  <footer>
+    Feito com ♥ pela
+    <a
+      href="http://www.instagram.com/jefmaeda"
+      target="_blank"
+      rel="instagram do JefersonMaeda (dev)">
+      JefersonMaeda
+    </a>
+  </footer>
 </html>
